@@ -29,11 +29,15 @@ After that for running the application use the command below
 ```sh
 mvn spring-boot:run
 ```
-Api runs with localhost:8080
+
+Api documentation: 
 http://localhost:8080/swagger-ui/index.html
+
 Database connection:
 http://localhost:8080/h2-console/
+
 user:user
+
 password:password
 
 2-Docker
@@ -47,13 +51,16 @@ Run below command within the project path with given sequence
 ```sh
 docker-compose up --build
 ```
-Api runs with localhost:9095
+
 
 APi documentation: 
 http://localhost:9095/swagger-ui/index.html
+
 Database connection:
 http://localhost:8080/h2-console/
+
 user:user
+
 password:password
 
 
