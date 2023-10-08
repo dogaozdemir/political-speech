@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  app:
+    image: 'political-speech:latest'
+    build:
+      context: .
+    ports:
+      - "9595:8080"
