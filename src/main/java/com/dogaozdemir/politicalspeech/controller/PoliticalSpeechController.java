@@ -21,7 +21,7 @@ public class PoliticalSpeechController {
 
 
     @GetMapping("/evaulation")
-    public ResponseEntity<PoliticalSpeechEvaulationResponse> getPoliticalSpeechEvaulation(@RequestParam(required  = false)   Integer url1,
+    public ResponseEntity<PoliticalSpeechEvaulationResponse> getPoliticalSpeechEvaulation(@RequestParam(required  = false)  Integer url1,
                                                                                           @RequestParam(required = false) String url2){
 
         return ResponseEntity.ok(politicalSpeechService.getPoliticalSpeechEvaulation(url1,url2));

@@ -6,6 +6,15 @@ public class PoliticalSpeechEvaulationResponse {
     private String mostSecurity;
     private String leastWordy;
 
+    public PoliticalSpeechEvaulationResponse() {
+    }
+
+    public PoliticalSpeechEvaulationResponse(String mostSpeeches, String mostSecurity, String leastWordy) {
+        this.mostSpeeches = mostSpeeches;
+        this.mostSecurity = mostSecurity;
+        this.leastWordy = leastWordy;
+    }
+
     public String getMostSpeeches() {
         return mostSpeeches;
     }
